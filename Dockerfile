@@ -4,6 +4,7 @@ WORKDIR /app
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
-COPY Streamlit .
+COPY Streamlit Streamlit
 
+WORKDIR Streamlit
 CMD streamlit run home.py --server.port=$PORT

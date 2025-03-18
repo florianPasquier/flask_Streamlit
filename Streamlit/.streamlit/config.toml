@@ -1,0 +1,12 @@
+# config.toml
+[theme]
+primaryColor = "#FF0000"  # Rouge
+backgroundColor = "#FFFFFF"  # Blanc
+secondaryBackgroundColor = "#F5F5F5"  # Blanc cassé
+textColor = "#333333"  # Gris foncé pour le texte
+
+[browser]
+gatherUsageStats = false  # Ne pas collecter les statistiques d'utilisation
+
+[client]
+toolbarMode = "minimal"  # Mode de la barre d'outils (minimal, classic, auto)
